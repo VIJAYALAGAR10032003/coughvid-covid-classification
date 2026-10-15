@@ -1,0 +1,10 @@
+{
+  "best_model": "Random Forest",
+  "thresholds": {
+    "XGBoost": 0.14576418697834015,
+    "Random Forest": 0.11749910487863678,
+    "Linear SVM": 0.059740797683412616
+  },
+  "selection_metric": "average_precision_then_f1",
+  "note": "Thresholds selected on validation set; final metrics use held-out test set."
+}

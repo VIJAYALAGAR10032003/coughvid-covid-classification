@@ -1,0 +1,119 @@
+{
+  "XGBoost": {
+    "confusion_matrix": [
+      [
+        2861,
+        234
+      ],
+      [
+        234,
+        29
+      ]
+    ],
+    "classification_report": {
+      "healthy-labelled": {
+        "precision": 0.9243941841680129,
+        "recall": 0.9243941841680129,
+        "f1-score": 0.9243941841680129,
+        "support": 3095.0
+      },
+      "COVID-19-labelled": {
+        "precision": 0.11026615969581749,
+        "recall": 0.11026615969581749,
+        "f1-score": 0.11026615969581749,
+        "support": 263.0
+      },
+      "accuracy": 0.8606313281715307,
+      "macro avg": {
+        "precision": 0.5173301719319152,
+        "recall": 0.5173301719319152,
+        "f1-score": 0.5173301719319152,
+        "support": 3358.0
+      },
+      "weighted avg": {
+        "precision": 0.8606313281715307,
+        "recall": 0.8606313281715307,
+        "f1-score": 0.8606313281715307,
+        "support": 3358.0
+      }
+    }
+  },
+  "Random Forest": {
+    "confusion_matrix": [
+      [
+        3093,
+        2
+      ],
+      [
+        263,
+        0
+      ]
+    ],
+    "classification_report": {
+      "healthy-labelled": {
+        "precision": 0.9216328963051251,
+        "recall": 0.9993537964458804,
+        "f1-score": 0.9589210975042629,
+        "support": 3095.0
+      },
+      "COVID-19-labelled": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 263.0
+      },
+      "accuracy": 0.9210839785586659,
+      "macro avg": {
+        "precision": 0.46081644815256256,
+        "recall": 0.4996768982229402,
+        "f1-score": 0.47946054875213145,
+        "support": 3358.0
+      },
+      "weighted avg": {
+        "precision": 0.8494502126457303,
+        "recall": 0.9210839785586659,
+        "f1-score": 0.8838179859367761,
+        "support": 3358.0
+      }
+    }
+  },
+  "Linear SVM": {
+    "confusion_matrix": [
+      [
+        2050,
+        1045
+      ],
+      [
+        138,
+        125
+      ]
+    ],
+    "classification_report": {
+      "healthy-labelled": {
+        "precision": 0.9369287020109689,
+        "recall": 0.6623586429725363,
+        "f1-score": 0.776074200265001,
+        "support": 3095.0
+      },
+      "COVID-19-labelled": {
+        "precision": 0.10683760683760683,
+        "recall": 0.4752851711026616,
+        "f1-score": 0.17445917655268667,
+        "support": 263.0
+      },
+      "accuracy": 0.6477069684335914,
+      "macro avg": {
+        "precision": 0.5218831544242879,
+        "recall": 0.5688219070375989,
+        "f1-score": 0.4752666884088438,
+        "support": 3358.0
+      },
+      "weighted avg": {
+        "precision": 0.8719156114717805,
+        "recall": 0.6477069684335914,
+        "f1-score": 0.7289554536192777,
+        "support": 3358.0
+      }
+    }
+  }
+}
